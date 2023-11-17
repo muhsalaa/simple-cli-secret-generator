@@ -1,0 +1,19 @@
+{
+  "name": "simple-cli-secret-generator",
+  "version": "1.0.0",
+  "description": "This is a simple CLI based secret string generator. Intended to use by creating an alias in the .zshrc or any other profile rc file. Then use it to generate secret that can be used for everything.",
+  "main": "index.js",
+  "dependencies": {
+    "clipboardy": "2.3.0",
+    "crypto-js": "4.1.1",
+    "is-wsl": "2.2.0",
+    "read": "1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
