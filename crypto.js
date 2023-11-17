@@ -1,9 +1,7 @@
 const CryptoJs = require("crypto-js");
 const sha256 = require("crypto-js/sha256.js");
 const Base64 = require("crypto-js/enc-base64.js");
-// import Utf8 from "crypto-js/enc-utf8";
 
-// Utf8.parse;
 function encrypto(plainText) {
   const x = {
     h: "!",
